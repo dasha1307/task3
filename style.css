@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.2);
+    max-width: 800px; /* Увеличили ширину формы */
+    width: 100%;
+    margin-top: 20px; /* Отступ сверху */
+}
+
+h1 {
+    color: #ff69b4;
+    text-align: center; /* Текст по центру */
+    margin: 0 0 30px 0; /* Отступ снизу */
+    font-size: 2.5em; /* Увеличили размер текста */
+}
+
+.form-group {
+    margin-bottom: 25px; /* Увеличили отступ между полями */
+}
+
+label {
+    display: block;
+    margin-bottom: 12px; /* Больше отступ */
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 1.1em; /* Увеличили размер текста */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px; /* Увеличили внутренний отступ */
+    border: 2px solid #ffb3d9;
+    border-radius: 10px;
+    font-size: 1.1em; /* Увеличили размер текста */
+    margin-top: 8px;
+}
+
+select[multiple] {
+    height: 150px; /* Увеличили высоту списка */
+}
+
+.radio-group {
+    display: flex;
+    gap: 25px; /* Больше расстояние между кнопками */
+    margin: 15px 0;
+}
+
+button {
+    padding: 15px 40px; /* Увеличили размер кнопки */
+    font-size: 1.2em; /* Увеличили текст кнопки */
+}
+
+/* Остальные стили остаются без изменений */
